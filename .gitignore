@@ -1,11 +1,21 @@
 # Environment
 .env
 myenv/
+venv/
+
 
 # Python
 __pycache__/
 *.pyc
+*~
 
 # Database
 db.sqlite3
 
+# Static folder at project root
+/static/
+
+# Visual Studio
+.vscode/
+.history/
+*.code-workspace
